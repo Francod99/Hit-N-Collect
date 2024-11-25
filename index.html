@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css/style.css">
+    <title>Hit N' Collect</title>
+    
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#"><img src="imaganes/logo.jpg" alt="MiLogo"></a>
+            </div>
+            <div class="header-title">
+                <h1>Hit N' Collect</h1>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li class="submenu">
+                        <a href="#">Cartas Individuales</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Agua</a></li>
+                            <li><a href="#">Fuego</a></li>
+                            <li><a href="#">Roca</a></li>
+                            <li><a href="#">Rayo</a></li>
+                            <li><a href="#">Siniestro</a></li>
+                            <li><a href="#">Veneno</a></li>
+                            <li><a href="#">Hada</a></li>
+                            <li><a href="#">Bicho</a></li>
+                            <li><a href="#">Dragón</a></li>
+                            <li><a href="#">Eléctrico</a></li>
+                            <li><a href="#">Lucha</a></li>
+                            <li><a href="#">Volador</a></li>
+                            <li><a href="#">Fantasma</a></li>
+                            <li><a href="#">Planta</a></li>
+                            <li><a href="#">Tierra</a></li>
+                            <li><a href="#">Hielo</a></li>
+                            <li><a href="#">Normal</a></li>
+                            <li><a href="#">Psíquico</a></li>
+                            <li><a href="#">Acero</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Boosters</a></li>
+                     <li class="container-cart-icon">
+                        <img src="https://img.pokemondb.net/artwork/large/pikachu.jpg" alt="Pokemon Icon" class="icon-cart">
+                        <div class="count-products">
+                            <span id="contador-productos">0</span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="image-container">
+        <img src="imaganes/giorgio-trovato-H5PJ3z4WqCc-unsplash.jpg" alt="Background Image" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1; filter: brightness(1.1) contrast(1.2);">
+        <div class="image-content">
+            <h1>Hit N' Collect</h1>
+            <p>Lo Mejor En Cartas</p>
+            <a href="#" class="stock-btn">Ver Stock</a>
+        </div>
+    </div>
+
+    <div class="container-cart-products">
+        <div class="cart-header">
+            <span>Carrito de Compras</span>
+            <span class="icon-close">✖</span>
+        </div>
+ 
+        <div class="row-product">
+            <!-- Productos añadidos se mostrarán aquí -->
+        </div>
+       
+        <a href="#" class="checkout-btn">Proceder al Pago</a>
+    </div>
+    ///menu///
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="icon_buylist.png" alt="Buylist Icon" class="menu-icon">
+            <h2>Buylist</h2>
+            <p>Sell us your cards!</p>
+        </div>
+        <div class="menu-item">
+            <img src="icon_multicard.png" alt="Multi-Card Icon" class="menu-icon">
+            <h2>Multi-Card Search</h2>
+            <p>Build a deck!</p>
+        </div>
+        <div class="menu-item">
+            <img src="icon_advanced.png" alt="Advanced Search Icon" class="menu-icon">
+            <h2>Advanced Search</h2>
+            <p>Advanced filters!</p>
+        </div>
+    </div>
+    <section class="products-section">
+        <h2>Productos</h2>
+        <div class="product-list">
+            <!-- Repite este bloque para crear 4 filas de 3 productos cada una -->
+            <div class="product-item">
+                <img src="producto1.jpg" alt="Producto 1" class="product-image">
+                <p class="product-price">$25.00</p>
+                <h3 class="product-title">Carta Pokémon: Charizard VMAX</h3>
+                <div class="product-buttons">
+                    <button class="btn-save">Guardar</button>
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="producto2.jpg" alt="Producto 2" class="product-image">
+                <p class="product-price">$18.00</p>
+                <h3 class="product-title">Carta Pokémon: Pikachu GX</h3>
+                <div class="product-buttons">
+                    <button class="btn-save">Guardar</button>
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="producto3.jpg" alt="Producto 3" class="product-image">
+                <p class="product-price">$30.00</p>
+                <h3 class="product-title">Carta Pokémon: Blastoise EX</h3>
+                <div class="product-buttons">
+                    <button class="btn-save">Guardar</button>
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+            <!-- Añade más productos aquí -->
+            <div class="product-item">
+                <img src="producto1.jpg" alt="Producto 1" class="product-image">
+                <p class="product-price">$25.00</p>
+                <h3 class="product-title">Carta Pokémon: Charizard VMAX</h3>
+                <div class="product-buttons">
+                    <button class="btn-save">Guardar</button>
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="producto2.jpg" alt="Producto 2" class="product-image">
+                <p class="product-price">$18.00</p>
+                <h3 class="product-title">Carta Pokémon: Pikachu GX</h3>
+                <div class="product-buttons">
+                    <button class="btn-save">Guardar</button>
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="producto3.jpg" alt="Producto 3" class="product-image">
+                <p class="product-price">$30.00</p>
+                <h3 class="product-title">Carta Pokémon: Blastoise EX</h3>
+                <div class="product-buttons">
+                    <button class="btn-save">Guardar</button>
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="producto1.jpg" alt="Producto 1" class="product-image">
+                <p class="product-price">$25.00</p>
+                <h3 class="product-title">Carta Pokémon: Charizard VMAX</h3>
+                <div class="product-buttons">
+                    <button class="btn-save">Guardar</button>
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="producto2.jpg" alt="Producto 2" class="product-image">
+                <p class="product-price">$18.00</p>
+                <h3 class="product-title">Carta Pokémon: Pikachu GX</h3>
+                <div class="product-buttons">
+                    <button class="btn-save">Guardar</button>
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="producto3.jpg" alt="Producto 3" class="product-image">
+                <p class="product-price">$30.00</p>
+                <h3 class="product-title">Carta Pokémon: Blastoise EX</h3>
+                <div class="product-buttons">
+                    <button class="btn-save">Guardar</button>
+                    <button class="btn-add-cart">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+        <div class="show-more-container">
+            <button class="show-more-btn">Mostrame más</button>
+        </div>
+        
+        
+        
+
+    </section>
+    <div class="product-row hidden">
+        <div class="product-item">
+            <img src="producto4.jpg" alt="Producto 4" class="product-image">
+            <p class="product-price">$22.00</p>
+            <h3 class="product-title">Carta Pokémon: Gyarados GX</h3>
+            <div class="product-buttons">
+                <button class="btn-save">Guardar</button>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="producto5.jpg" alt="Producto 5" class="product-image">
+            <p class="product-price">$28.00</p>
+            <h3 class="product-title">Carta Pokémon: Mewtwo EX</h3>
+            <div class="product-buttons">
+                <button class="btn-save">Guardar</button>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="product-item">
+            <img src="producto6.jpg" alt="Producto 6" class="product-image">
+            <p class="product-price">$35.00</p>
+            <h3 class="product-title">Carta Pokémon: Lugia V</h3>
+            <div class="product-buttons">
+                <button class="btn-save">Guardar</button>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="imaganes/logo.jpg" alt="MiLogo">
+                <h2>Hit N' Collect</h2>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-link"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#" class="social-link"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#" class="social-link"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            <button class="back-to-top">
+                <img src="imaganes/images.jfif" alt="Ir Arriba">
+            </button>
+        </div>
+    </footer>
+    
+
+    <script>
+        // Selección de elementos del carrito
+        const btnCart = document.querySelector('.container-cart-icon');
+        const containerCartProducts = document.querySelector('.container-cart-products');
+        const countProducts = document.querySelector('#contador-productos');
+        const rowProduct = document.createElement('div');
+        rowProduct.classList.add('row-product');
+        containerCartProducts.appendChild(rowProduct);
+        const valorTotal = document.createElement('div');
+        valorTotal.classList.add('total-container');
+        valorTotal.innerHTML = '<span>Total:</span> <span class="total-pagar">$0</span>';
+        containerCartProducts.appendChild(valorTotal);
+        const cartEmpty = document.createElement('p');
+        cartEmpty.classList.add('cart-empty');
+        cartEmpty.textContent = 'El carrito está vacío';
+        containerCartProducts.appendChild(cartEmpty);
+    
+        let allProducts = [];
+    
+        // Mostrar u ocultar el carrito
+        btnCart.addEventListener('click', () => {
+            containerCartProducts.classList.toggle('visible-cart');
+        });
+    
+        // Añadir producto al carrito
+        document.querySelectorAll('.btn-add-cart').forEach(button => {
+            button.addEventListener('click', (event) => {
+                const productItem = event.target.closest('.product-item');
+                const productTitle = productItem.querySelector('.product-title').textContent;
+                const productPrice = productItem.querySelector('.product-price').textContent;
+    
+                const existingProductIndex = allProducts.findIndex(product => product.title === productTitle);
+    
+                if (existingProductIndex >= 0) {
+                    allProducts[existingProductIndex].quantity++;
+                } else {
+                    allProducts.push({
+                        title: productTitle,
+                        price: productPrice,
+                        quantity: 1
+                    });
+                }
+    
+                updateCartHTML();
+            });
+        });
+    
+        // Eliminar producto del carrito
+        containerCartProducts.addEventListener('click', (e) => {
+            if (e.target.classList.contains('icon-close')) {
+                const productTitle = e.target.closest('.cart-product').querySelector('.titulo-producto-carrito').textContent;
+                allProducts = allProducts.filter(product => product.title !== productTitle);
+                updateCartHTML();
+            }
+        });
+    
+        // Actualizar el HTML del carrito
+        function updateCartHTML() {
+            rowProduct.innerHTML = '';
+            let total = 0;
+            let totalProducts = 0;
+    
+            if (allProducts.length > 0) {
+                cartEmpty.style.display = 'none';
+                rowProduct.style.display = 'block';
+    
+                allProducts.forEach(product => {
+                    const productElement = document.createElement('div');
+                    productElement.classList.add('cart-product');
+                    productElement.innerHTML = `
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">${product.quantity}</span>
+                            <p class="titulo-producto-carrito">${product.title}</p>
+                            <span class="precio-producto-carrito">${product.price}</span>
+                        </div>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="icon-close"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    `;
+                    rowProduct.appendChild(productElement);
+    
+                    total += parseFloat(product.price.slice(1)) * product.quantity;
+                    totalProducts += product.quantity;
+                });
+    
+                containerCartProducts.querySelector('.total-pagar').textContent = `$${total.toFixed(2)}`;
+                countProducts.textContent = totalProducts;
+            } else {
+                cartEmpty.style.display = 'block';
+                rowProduct.style.display = 'none';
+                containerCartProducts.querySelector('.total-pagar').textContent = '$0';
+                countProducts.textContent = '0';
+            }
+        }
+ // Mostrar más productos al hacer clic en el botón "Mostrame más"
+const showMoreBtn = document.querySelector('.show-more-btn');
+const extraProductRows = document.querySelectorAll('.product-row.hidden');
+
+showMoreBtn.addEventListener('click', () => {
+    extraProductRows.forEach(row => row.classList.remove('hidden'));
+    showMoreBtn.style.display = 'none';
+});
+// Botón para volver al inicio de la página
+const backToTopBtn = document.querySelector('.back-to-top');
+backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+
+
+    </script>
+</body>
+</html>
